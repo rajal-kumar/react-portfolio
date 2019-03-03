@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/header-background.jpg) no-repeat top center;
+   background: #161415 url('https://wallpapermemory.com/uploads/430/programming-background-hd-1920x1280-313837.jpg') no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -179,7 +179,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #00FF00; }
 
 
 /* ------------------------------------------------------------------ */
@@ -639,7 +639,8 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+   /* background: #1F1F1F url('http://www.xda-developers.com/wp-content/uploads/2012/03/Code.jpeg') no-repeat center center; */
+   background: #1F1F1F url('https://wallpapermemory.com/uploads/430/programming-background-hd-1920x1280-313837.jpg') no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
