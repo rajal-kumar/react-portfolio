@@ -60,16 +60,36 @@ let resumeData = {
     "skillsDescription":"Your skills here",
     "skills":[
       {
-        "skillname":"HTML5"
+        "skillname":"HTML5",
+        "className": "fab fa-html5"
       },
       {
-        "skillname":"CSS"
+        "skillname":"CSS",
+        "className": "fab fa-css3-alt"
       },
       {
-        "skillname":"JavaScript"
+        "skillname":"JavaScript",
+        "className": "fab fa-js"
       },
       {
-        "skillname":"Reactjs"
+        "skillname":"Reactjs",
+        "className": "fab fa-react"
+      },
+      {
+        "skillname": "Node.js",
+        "className": "fab fa-node-js"
+      },
+      {
+        "skillname": "Sass",
+        "className": "fab fa-sass"
+      },
+      {
+        "skillname": "Command Line Interface",
+        "className": "fas fa-terminal"
+      },
+      {
+        "skillname": "Git",
+        "className": "fas fa-code-branch"
       }
     ],
     "portfolio":[
