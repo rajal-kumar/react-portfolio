@@ -1,7 +1,7 @@
 let resumeData = {
     "imagebaseurl":"https://www.rajalkumar.com",
     "name": "Rajal Kumar",
-    "role": "Frontend/FullStack Developer and U/X",
+    "role": "Web Developer and User Experience",
     "linkedinId": "rajal-kumar-3b00ab10b",
     "skypeid": "Your skypeid",
     "roleDescription": "HTML / CSS | JavaScript | React | React360 / VR | Redux | NodeJS | Express | SQL / liteDB | BootStrap",
@@ -22,23 +22,23 @@ let resumeData = {
           "className":"fa fa-skype"
         }
       ],
-    "aboutme": "I like dabbling in various parts of web development and like to learn about new technologies, write technical articles or simply play games in my free time. I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
+    "aboutme": "I am an ambitious problem solver with a passion for the web. I have experience of creating high quality code and innovative solutions to complex problems. I am thorough and precise in everything I do, and have a keen interest in technology, mobile applications and user experience. As someone who continuously broadens his knowledge of new technologies, I am constantly evaluating and learning new skills. I am a natural problem solver, who has proven myself by successfully completing projects under different time frames, clients and technologies. This has given me a strong drive to be reliable, adaptive and learn new things.",
     "address":"Wellington, New Zealand",
-    "website":"https://www.rajalkumar.com",
+    "email":"rajalkumar@protonmail.com",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
+        "UniversityName":"Enspiral Dev Academy",
+        "specialization":"FullStack Web Development",
+        "MonthOfPassing":"Nov",
+        "YearOfPassing":"2017",
+        "Achievements":""
       },
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "UniversityName":"Victoria University of Wellington",
+        "specialization":"Bachelor of Commerce Majoring in Information Systems and E-Commerce",
+        "MonthOfPassing":"Dec",
+        "YearOfPassing":"2016",
+        "Achievements":""
       }
     ],
     "work":[
@@ -64,6 +64,9 @@ let resumeData = {
       },
       {
         "skillname":"CSS"
+      },
+      {
+        "skillname":"JavaScript"
       },
       {
         "skillname":"Reactjs"
@@ -94,11 +97,11 @@ let resumeData = {
     "testimonials":[
       {
         "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "name":"Lorna Gray"
       },
       {
         "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "name":"Bronson Wharehinga"
       }
     ]
   }
