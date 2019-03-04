@@ -1,7 +1,7 @@
 let resumeData = {
     "imagebaseurl":"https://www.rajalkumar.com",
     "name": "Rajal Kumar",
-    "role": "Frontend/FullStack Developer and U/X Interface ",
+    "role": "Frontend/FullStack Developer and U/X",
     "linkedinId": "rajal-kumar-3b00ab10b",
     "skypeid": "Your skypeid",
     "roleDescription": "HTML / CSS | JavaScript | React | React360 / VR | Redux | NodeJS | Express | SQL / liteDB | BootStrap",
@@ -18,7 +18,7 @@ let resumeData = {
         },
         {
           "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
+          "url":"",
           "className":"fa fa-skype"
         }
       ],
@@ -72,23 +72,23 @@ let resumeData = {
     "portfolio":[
       {
         "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/origami.jpg"
+        "description":"",
+        "imgurl":"images/portfolio/comingsoon.jpg"
       },
       {
         "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/console.jpg"
+        "description":"",
+        "imgurl":"images/portfolio/comingsoon.jpg"
       },
       {
         "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/coffee.jpg"
+        "description":"",  
+        "imgurl":"images/portfolio/comingsoon.jpg"
       },
       {
         "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/judah.jpg"
+        "description":"",
+        "imgurl":"images/portfolio/comingsoon.jpg"
       }
     ],
     "testimonials":[
