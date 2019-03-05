@@ -11,7 +11,7 @@ export default class ContactUs extends Component {
               </p>
             </div>
           </div>
-          <div className="row">
+          {/* <div className="row">
             <aside className="eigth columns footer-widgets">
               <div className="widget">
                 <h4>LinkedIn: 
@@ -19,7 +19,7 @@ export default class ContactUs extends Component {
                 </h4>
               </div>
             </aside>
-          </div>
+          </div> */}
         </section>
         );
   }

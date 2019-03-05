@@ -4,7 +4,7 @@ let resumeData = {
     "role": "Web Developer and User Experience",
     "linkedinId": "rajal-kumar-3b00ab10b",
     "skypeid": "Your skypeid",
-    "roleDescription": "HTML / CSS | JavaScript | ReactJs / VR / Native  | Redux | NodeJS | Express | SQL / liteDB | BootStrap | Wordpress | Linux | jQuery",
+    "roleDescription": "HTML / CSS | JavaScript | ReactJs / VR / Native  | Redux | NodeJS | Express | SQL / liteDB | BootStrap | Wordpress | Linux | jQuery | Sass | Git | Terminal",
     "socialLinks":[
         {
           "name":"linkedin",
