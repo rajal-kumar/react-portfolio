@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+
+import ContactForm from './ContactForm';
 export default class ContactUs extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -9,6 +11,9 @@ export default class ContactUs extends Component {
               <p className="lead">
               Feel free to contact me for any work or suggestions below
               </p>
+            </div>
+            <div>
+              <ContactForm />
             </div>
           </div>
           {/* <div className="row">
