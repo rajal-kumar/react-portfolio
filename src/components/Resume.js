@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Grid, Image } from 'semantic-ui-react';
 export default  class Resume extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -72,22 +73,31 @@ export default  class Resume extends Component {
                {resumeData.skillsDescription}
                </p>
 
-   				<div className="bars">
+   				<div className="grid">
 
-   				   <ul className="skills">
+   				   {/* <ul className="skills">
                 {
                   resumeData.skills && resumeData.skills.map((item) => {
                     return(
                       <li>
-                      <span className={`bar-expand ${item.skillname.toLowerCase()}`}>
-                      </span><em>{item.skillname}</em>
+                      <em>{item.skillname}</em>
+                      <img src={`${item.imgurl}`} className="item-img" alt="+"/>
                       </li>
                     )
                   })
                 }
 
-   					</ul>
-
+             </ul> */}
+                <div className="social-links">
+                  <h3>{resumeData.roleDescription}</h3>
+                  {
+                    resumeData.skills && resumeData.skills.map((item) => {
+                      return(
+                          <img src={`${item.imgurl}`} className="item-img" alt={item.skillname} />
+                      )
+                    })
+                  }
+                </div>
    				</div>
 
    			</div>

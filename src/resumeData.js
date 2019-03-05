@@ -4,7 +4,7 @@ let resumeData = {
     "role": "Web Developer and User Experience",
     "linkedinId": "rajal-kumar-3b00ab10b",
     "skypeid": "Your skypeid",
-    "roleDescription": "HTML / CSS | JavaScript | React | React360 / VR | Redux | NodeJS | Express | SQL / liteDB | BootStrap",
+    "roleDescription": "HTML / CSS | JavaScript | ReactJs / VR / Native  | Redux | NodeJS | Express | SQL / liteDB | BootStrap | Wordpress | Linux | jQuery",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -57,39 +57,55 @@ let resumeData = {
         "Achievements":"Some Achievements"
       }
     ],
-    "skillsDescription":"Your skills here",
+    "skillsDescription":"My skills",
     "skills":[
       {
         "skillname":"HTML5",
-        "className": "fab fa-html5"
+        "imgurl":"https://img.icons8.com/color/96/000000/html-5.png"
       },
       {
         "skillname":"CSS",
-        "className": "fab fa-css3-alt"
+        "imgurl":"https://img.icons8.com/color/96/000000/css3.png"
       },
       {
         "skillname":"JavaScript",
-        "className": "fab fa-js"
+        "imgurl":"https://img.icons8.com/color/96/000000/javascript.png"
       },
       {
-        "skillname":"Reactjs",
-        "className": "fab fa-react"
+        "skillname":"React.js/Native/VR",
+        "imgurl":"https://img.icons8.com/ios/100/000000/react-native-filled.png"
       },
       {
         "skillname": "Node.js",
-        "className": "fab fa-node-js"
+        "imgurl":"https://img.icons8.com/color/96/000000/nodejs.png"
       },
       {
-        "skillname": "Sass",
-        "className": "fab fa-sass"
+        "skillname": "WordPress",
+        "imgurl":"https://img.icons8.com/color/96/000000/wordpress.png"
       },
       {
         "skillname": "Command Line Interface",
-        "className": "fas fa-terminal"
+        "imgurl":"https://img.icons8.com/office/96/000000/console.png"
       },
       {
         "skillname": "Git",
-        "className": "fas fa-code-branch"
+        "imgurl":"https://img.icons8.com/color/96/000000/git.png"
+      },
+      {
+        "skillname": "NPM",
+        "imgurl":"https://img.icons8.com/color/96/000000/npm.png"
+      },
+      {
+        "skillname": "MySQL/SQLite",
+        "imgurl":"https://img.icons8.com/ios/100/000000/sql-filled.png"
+      },
+      {
+        "skillname": "jQuery",
+        "imgurl":"https://img.icons8.com/ios/100/000000/jquery.png"
+      },
+      {
+        "skillname": "Linux",
+        "imgurl":"https://img.icons8.com/color/96/000000/linux.png"
       }
     ],
     "portfolio":[
