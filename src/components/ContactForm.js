@@ -1,4 +1,7 @@
 import React from 'react';
+import axios from 'axios';
+
+const API_PATH = 'http://localhost:80/React-Portfolio/src/api/contact/index.php';
 
 class ContactForm extends React.Component {
   constructor() {
@@ -21,12 +24,25 @@ class ContactForm extends React.Component {
   onSubmit(e) {
     e.preventDefault()
     console.log(this.state)
-    this.setState({
-      fName: "",
-      lName: "",
-      email: "",
-      message: ""
+
+    axios({
+      method: 'post',
+      url: `${API_PATH}`,
+      headers: { 'content-type': 'application/json' },
+      data: this.state
     })
+      .then(result => {
+        this.setState({
+          mailSent: result.data.sent
+        })
+      })
+      .catch(error => this.setState({ error: error.message }));
+    // this.setState({
+    //   fName: "",
+    //   lName: "",
+    //   email: "",
+    //   message: ""
+    // })
   }
 
   render() {
@@ -67,6 +83,11 @@ class ContactForm extends React.Component {
           />
           <br />
           <button type="submit" onClick={e => this.onSubmit(e)}>Send</button>
+          <div>
+            {this.state.mailSent && 
+              <div>Thank you for contacting me. I will respond as soon as I can :)</div>
+            }
+          </div>
         </form>
       </div>
     )
