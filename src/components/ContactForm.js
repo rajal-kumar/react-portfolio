@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 
-const API_PATH = 'http://localhost:3000/React-Portfolio/src/api/contact/index.php';
+// const API_PATH = 'http://localhost:3000/React-Portfolio/src/api/contact/index.php';
 
 class ContactForm extends React.Component {
   constructor() {
@@ -32,20 +32,29 @@ class ContactForm extends React.Component {
     let data = {
       fName: this.state.fName,
       lName: this.state.lName,
+      email:this.state.email,
+      message: this.state.message
     }
 
-    axios({
+    axios.post('API_URI', data)
+      .then( res => {
+        this.setState({ sent: true}, this.resetForm())
+      })
+      .catch( () => {
+        console.log('Message not sent')
+      })
       
-    })
-      
-    // this.setState({
-    //   fName: "",
-    //   lName: "",
-    //   email: "",
-    //   message: ""
-    // })
-  }
-
+    }
+    
+    resetForm = () => {
+      this.setState({
+        fName: "",
+        lName: "",
+        email: "",
+        message: ""
+      })
+    }
+    
   render() {
     return (
       <div className="contact-form">
