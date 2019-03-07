@@ -1,7 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 
-const API_PATH = 'http://localhost:80/React-Portfolio/src/api/contact/index.php';
+const API_PATH = 'http://localhost:3000/React-Portfolio/src/api/contact/index.php';
 
 class ContactForm extends React.Component {
   constructor() {
@@ -12,7 +12,7 @@ class ContactForm extends React.Component {
       email: "",
       message: "",
       mailSent: false,
-      error: null
+      buttonText: 'Send Message'
     }
     this.onChange = this.onChange.bind(this)
   }
@@ -25,18 +25,19 @@ class ContactForm extends React.Component {
     e.preventDefault()
     console.log(this.state)
 
-    axios({
-      method: 'post',
-      url: `${API_PATH}`,
-      headers: { 'content-type': 'application/json' },
-      data: this.state
+    this.setState({
+      buttonText: '...sending'
     })
-      .then(result => {
-        this.setState({
-          mailSent: result.data.sent
-        })
-      })
-      .catch(error => this.setState({ error: error.message }));
+
+    let data = {
+      fName: this.state.fName,
+      lName: this.state.lName,
+    }
+
+    axios({
+      
+    })
+      
     // this.setState({
     //   fName: "",
     //   lName: "",
@@ -48,7 +49,7 @@ class ContactForm extends React.Component {
   render() {
     return (
       <div className="contact-form">
-        <form action="/action_page.php">
+        <form action="/action_page.php" onClick={e => this.onSubmit(e)}>
           <input
           type="text"
           id="fname"
@@ -71,7 +72,8 @@ class ContactForm extends React.Component {
           name="email" 
           placeholder="Email" 
           value={this.state.email} 
-          onChange={this.onChange}        
+          onChange={this.onChange} 
+          required        
           />
           <textarea
           type="text"
@@ -79,14 +81,13 @@ class ContactForm extends React.Component {
           name="message" 
           placeholder="Enter your message here" 
           value={this.state.message} 
-          onChange={this.onChange}          
+          onChange={this.onChange} 
+          required          
           />
           <br />
-          <button type="submit" onClick={e => this.onSubmit(e)}>Send</button>
-          <div>
-            {this.state.mailSent && 
-              <div>Thank you for contacting me. I will respond as soon as I can :)</div>
-            }
+          {/* <button type="submit" onClick={e => this.onSubmit(e)}>Send</button> */}
+          <div className="button--container">
+            <button type="submit" className="button button-primary">{ this.state.buttonText }</button>
           </div>
         </form>
       </div>
