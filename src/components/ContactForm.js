@@ -4,10 +4,12 @@ class ContactForm extends React.Component {
   constructor() {
     super()
     this.state = {
-      firstName: "",
-      lastName: "",
+      fName: "",
+      lName: "",
       email: "",
-      message: ""
+      message: "",
+      mailSent: false,
+      error: null
     }
     this.onChange = this.onChange.bind(this)
   }
@@ -18,9 +20,10 @@ class ContactForm extends React.Component {
 
   onSubmit(e) {
     e.preventDefault()
+    console.log(this.state)
     this.setState({
-      firstName: "",
-      lastName: "",
+      fName: "",
+      lName: "",
       email: "",
       message: ""
     })
@@ -33,17 +36,17 @@ class ContactForm extends React.Component {
           <input
           type="text"
           id="fname"
-          name="firstName" 
+          name="fName" 
           placeholder="First Name" 
-          value={this.state.firstName} 
+          value={this.state.fName} 
           onChange={this.onChange} 
           />
           <input
           type="text"
           id="lname"
-          name="lastName" 
+          name="lName" 
           placeholder="Last Name" 
-          value={this.state.lastName} 
+          value={this.state.lName} 
           onChange={this.onChange}
           />
           <input
@@ -63,7 +66,7 @@ class ContactForm extends React.Component {
           onChange={this.onChange}          
           />
           <br />
-          <button onClick={e => this.onSubmit(e)}>Send</button>
+          <button type="submit" onClick={e => this.onSubmit(e)}>Send</button>
         </form>
       </div>
     )
