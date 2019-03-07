@@ -29,26 +29,34 @@ class ContactForm extends React.Component {
   render() {
     return (
       <div className="contact-form">
-        <form>
+        <form action="/action_page.php">
           <input
+          type="text"
+          id="fname"
           name="firstName" 
           placeholder="First Name" 
           value={this.state.firstName} 
           onChange={this.onChange} 
           />
           <input
+          type="text"
+          id="lname"
           name="lastName" 
           placeholder="Last Name" 
           value={this.state.lastName} 
           onChange={this.onChange}
           />
           <input
+          type="email"
+          id="email"
           name="email" 
           placeholder="Email" 
           value={this.state.email} 
           onChange={this.onChange}        
           />
-          <input
+          <textarea
+          type="text"
+          id="message"
           name="message" 
           placeholder="Enter your message here" 
           value={this.state.message} 
