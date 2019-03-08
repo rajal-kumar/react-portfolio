@@ -89,7 +89,7 @@ let resumeData = {
       },
       {
         "skillname": "Command Line Interface",
-        "imgurl":"https://img.icons8.com/office/96/000000/console.png"
+        "imgurl":"https://img.icons8.com/color/96/000000/command-line.png"
       },
       {
         "skillname": "jQuery",

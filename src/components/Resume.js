@@ -4,13 +4,10 @@ export default  class Resume extends Component {
     let resumeData = this.props.resumeData;
     return (
       <section id="resume">
-
          <div className="row education">
-
             <div className="three columns header-col">
                <h1><span>Education</span></h1>
             </div>
-
             <div className="nine columns main-col">
               {
                 resumeData.education && resumeData.education.map((item, i)=>{
@@ -58,18 +55,11 @@ export default  class Resume extends Component {
               }
             </div> 
          </div> */}
-
-
          <div className="row skill">
-
             <div className="three columns header-col">
                <h1><span>Skills</span></h1>
             </div>
-
             <div className="nine columns main-col">
-
-              
-
    				<div className="grid">
         {resumeData.skillsDescription}
       <div className="row">
@@ -91,11 +81,8 @@ export default  class Resume extends Component {
         </div>
       </div>
    				</div>
-
    			</div>
-
          </div>
-
       </section>
     );
   }

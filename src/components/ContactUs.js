@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-import ContactForm from './ContactForm';
-
 export default class ContactUs extends Component {
   render() {
     let resumeData = this.props.resumeData;
