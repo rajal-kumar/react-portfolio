@@ -13,9 +13,9 @@ export default  class Resume extends Component {
 
             <div className="nine columns main-col">
               {
-                resumeData.education && resumeData.education.map((item)=>{
+                resumeData.education && resumeData.education.map((item, i)=>{
                   return(
-                    <div className="row item">
+                    <div className="row item" key={i}>
                        <div className="twelve columns">
                           <h3>{item.UniversityName}</h3>
                           <p className="info">
@@ -68,35 +68,28 @@ export default  class Resume extends Component {
 
             <div className="nine columns main-col">
 
-               <p>
-               {resumeData.skillsDescription}
-               </p>
+              
 
    				<div className="grid">
 
-   				   {/* <ul className="skills">
-                {
-                  resumeData.skills && resumeData.skills.map((item) => {
-                    return(
-                      <li>
-                      <em>{item.skillname}</em>
+      <div className="row">
+        <div className="twelve columns collapsed">
+          <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+          {
+            resumeData.skills && resumeData.skills.map((item, i)=>{
+              return(
+                <div className="columns portfolio-item" key={i}>
+                  <div className="item-wrap">
                       <img src={`${item.imgurl}`} className="item-img" alt="+"/>
-                      </li>
-                    )
-                  })
-                }
-
-             </ul> */}
-                <div className="social-links">
-                  <h3>{resumeData.roleDescription}</h3>
-                  {
-                    resumeData.skills && resumeData.skills.map((item) => {
-                      return(
-                          <img src={`${item.imgurl}`} className="item-img" alt={item.skillname} />
-                      )
-                    })
-                  }
+                          <h5>{item.skillname}</h5>
+                  </div>
                 </div>
+              )
+            })
+          }
+          </div>
+        </div>
+      </div>
    				</div>
 
    			</div>

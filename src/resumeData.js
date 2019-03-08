@@ -80,28 +80,28 @@ let resumeData = {
         "imgurl":"https://img.icons8.com/color/96/000000/nodejs.png"
       },
       {
-        "skillname": "WordPress",
-        "imgurl":"https://img.icons8.com/color/96/000000/wordpress.png"
-      },
-      {
-        "skillname": "Command Line Interface",
-        "imgurl":"https://img.icons8.com/office/96/000000/console.png"
+        "skillname": "NPM",
+        "imgurl":"https://img.icons8.com/color/96/000000/npm.png"
       },
       {
         "skillname": "Git",
         "imgurl":"https://img.icons8.com/color/96/000000/git.png"
       },
       {
-        "skillname": "NPM",
-        "imgurl":"https://img.icons8.com/color/96/000000/npm.png"
+        "skillname": "Command Line Interface",
+        "imgurl":"https://img.icons8.com/office/96/000000/console.png"
+      },
+      {
+        "skillname": "jQuery",
+        "imgurl":"https://img.icons8.com/ios/100/000000/jquery.png"
       },
       {
         "skillname": "MySQL/SQLite",
         "imgurl":"https://img.icons8.com/ios/100/000000/sql-filled.png"
       },
       {
-        "skillname": "jQuery",
-        "imgurl":"https://img.icons8.com/ios/100/000000/jquery.png"
+        "skillname": "WordPress",
+        "imgurl":"https://img.icons8.com/color/96/000000/wordpress.png"
       },
       {
         "skillname": "Linux",
