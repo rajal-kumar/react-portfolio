@@ -22,7 +22,7 @@ let resumeData = {
           "className":"fa fa-skype"
         }
       ],
-    "aboutme": "I am an ambitious problem solver with a passion for the web. I have experience of creating high quality code and innovative solutions to complex problems. I am thorough and precise in everything I do, and have a keen interest in technology, mobile applications and user experience. As someone who continuously broadens his knowledge of new technologies, I am constantly evaluating and learning new skills. I am a natural problem solver, who has proven myself by successfully completing projects under different time frames, clients and technologies. This has given me a strong drive to be reliable, adaptive and learn new things.",
+    "aboutme": "Hey, I'm a FullStack developer who specialises in React and NodeJs. I design, build, operate and depending on the type of set up I can also work on existing web applications. I have always had a passion for technology and the web - I like to bring my automotive conceptual thinking into the world of programming like how both skills require a build, break, fix, and repeat kind of thinking. I love to write code most days of the week, and most weeks of the year. If I'm not working on a client's project I regularly spend time online browsing for new projects and technologies to further expand my programming knowledge and skills. Please feel free to have a look around on my site and get in contact if you have any questions.",
     "address":"Wellington, New Zealand",
     "email":"rajalkumar@protonmail.com",
     "education":[

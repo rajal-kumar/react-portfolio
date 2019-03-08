@@ -643,7 +643,7 @@ call-to-action .button {
 
 #testimonials {
    /* background: #1F1F1F url('http://www.xda-developers.com/wp-content/uploads/2012/03/Code.jpeg') no-repeat center center; */
-   background: #1F1F1F url('https://cdn-images-1.medium.com/max/2600/0*T_k_KvM8_mTaowQl.') no-repeat center center;
+   background: #1F1F1F url('') no-repeat center center;
    /* background: #1F1F1F url('https://www.greengeeks.com/blog/wp-content/uploads/2015/04/webdevelopment.jpg') no-repeat center center; */
    background-size: cover !important;
 	-webkit-background-size: cover !important;
@@ -705,7 +705,19 @@ call-to-action .button {
 
 /* Flex Slider
 /* ------------------------------------------------------------------ */
+#slider {
+   /* background: #1F1F1F url('http://www.xda-developers.com/wp-content/uploads/2012/03/Code.jpeg') no-repeat center center; */
+   background: #1F1F1F url('https://cdn-images-1.medium.com/max/2600/0*T_k_KvM8_mTaowQl.') no-repeat center center;
+   /* background: #1F1F1F url('https://www.greengeeks.com/blog/wp-content/uploads/2015/04/webdevelopment.jpg') no-repeat center center; */
+   background-size: cover !important;
+   -webkit-background-size: cover !important;
+   background-attachment: fixed;
 
+   position: relative;
+   min-height: 200px;
+   width: 100%;
+   overflow: hidden;
+}
 /* Reset */
 .flexslider a:active,
 .flexslider a:focus  { outline: none; }

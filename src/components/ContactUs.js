@@ -4,7 +4,7 @@ import ContactForm from './ContactForm';
 
 export default class ContactUs extends Component {
   render() {
-    // let resumeData = this.props.resumeData;
+    let resumeData = this.props.resumeData;
     return (
       <section id="contact">
           <div className="row section-head">
@@ -15,9 +15,22 @@ export default class ContactUs extends Component {
               </p>
             </div>
           </div>
-          <div className="social-links">
-              
-          </div>
+          <div className="row">
+
+                  <div className="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p className="address">
+       						<span>{resumeData.name}</span>
+                     <br></br>
+       						   <span>
+                     {resumeData.address}
+                    </span>
+                    <br></br>
+                    <span>{resumeData.email}</span>
+       					   </p>
+                  </div>
+               </div>
         </section>
         );
       }
@@ -25,9 +38,4 @@ export default class ContactUs extends Component {
 
 
     
-    {/* <aside className="eigth columns footer-widgets">
-      <div className="widget">
-        <h4>Email: </h4>
-          {resumeData.email}
-      </div>
-    </aside> */}
+   

@@ -6,6 +6,7 @@ import Portfolio from './components/Portfolio';
 import Testimonials from  './components/Testimonials';
 import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
+import FlexSlider from './components/FlexSlider';
 import resumeData from './resumeData';
 
 
@@ -19,6 +20,7 @@ class App extends Component {
         <Resume resumeData={resumeData}/>
         <Portfolio resumeData={resumeData}/>
         <Testimonials resumeData={resumeData}/>
+        <FlexSlider />
         <ContactUs resumeData={resumeData}/>
         <Footer resumeData={resumeData}/>
       </div>
