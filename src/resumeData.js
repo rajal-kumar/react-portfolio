@@ -1,7 +1,7 @@
 let resumeData = {
     "imagebaseurl":"https://www.rajalkumar.com",
     "name": "Rajal Kumar",
-    "role": "Web Developer and User Experience",
+    "role": "Full-Stack Web Developer",
     "linkedinId": "rajal-kumar-3b00ab10b",
     "skypeid": "Your skypeid",
     "roleDescription": "HTML / CSS | JavaScript | ReactJs / VR / Native  | Redux | NodeJS | Express | SQL / liteDB | BootStrap | Wordpress | Linux | jQuery | Sass | Git | Terminal",
@@ -132,13 +132,13 @@ let resumeData = {
     ],
     "testimonials":[
       {
-        "description":"This is a sample testimonial",
-        "name":"Lorna Gray"
+        "description":"Raj was professional yet warm and friendly. He was fast and efficient to work with, when we updated our website we were impressed at how quickly he got things done and how good he was at communicating. ESYT is extremely happy at the final product, we will be using him on an ongoing basis and recommend him highly.",
+        "name":"Lorna Gray (CEO of Esyt)"
       },
-      {
-        "description":"This is a sample testimonial",
-        "name":"Bronson Wharehinga"
-      }
+      // {
+      //   "description":"This is a sample testimonial",
+      //   "name":"Bronson Wharehinga"
+      // }
     ]
   }
   

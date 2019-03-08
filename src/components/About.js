@@ -9,7 +9,11 @@ export default class About extends Component {
             <div className="three columns">
 
                <img className="profile-pic"  src="images/profile.png" alt="" />
-
+                <img 
+                  src="images/profile.png"
+                  alt="avatar"
+                  style={{height: '250px'}}
+                  />
             </div>
 
             <div className="nine columns main-col">

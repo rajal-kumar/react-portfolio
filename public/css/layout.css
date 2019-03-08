@@ -33,8 +33,9 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url('https://wallpapermemory.com/uploads/430/programming-background-hd-1920x1280-313837.jpg') no-repeat top center;
-    /* background: #161415 url('https://www.apasters.com/wp-content/uploads/2014/11/html-code-wide.jpg') no-repeat top center; */
+   /* background: #161415 url('https://wallpapermemory.com/uploads/430/programming-background-hd-1920x1280-313837.jpg') no-repeat top center; */
+    /* background: #161415 url('../images/backgrounds/dark.jpg') no-repeat top center; */
+    background: #161415 url('https://cdn-images-1.medium.com/max/2600/0*T_k_KvM8_mTaowQl.') no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -96,7 +97,7 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #00FF00; }
+header .social li a:hover { color: #161415; }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -118,7 +119,7 @@ header .scrolldown a {
    -o-transition: all .3s ease-in-out;
    transition: all .3s ease-in-out;
 }
-header .scrolldown a:hover { color: #00FF00; }
+header .scrolldown a:hover { color: #161415; }
 
 /* primary navigation
 --------------------------------------------------------------------- */
@@ -180,7 +181,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #00FF00; }
+ul#nav li.current a { color: #161415; }
 
 
 /* ------------------------------------------------------------------ */
@@ -195,7 +196,7 @@ ul#nav li.current a { color: #00FF00; }
 }
 
 #about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #00FF00; }
+#about a:hover, #about a:focus { color: #161415; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -243,7 +244,7 @@ ul#nav li.current a { color: #00FF00; }
    overflow: hidden;
 }
 
-#resume a, #resume a:visited  { color: #00FF00; }
+#resume a, #resume a:visited  { color: #161415; }
 #resume a:hover, #resume a:focus { color: #313131; }
 
 #resume h1 {
@@ -252,7 +253,7 @@ ul#nav li.current a { color: #00FF00; }
    letter-spacing: 1px;
 }
 #resume h1 span {
-   border-bottom: 3px solid #00FF00;
+   border-bottom: 3px solid #161415;
    padding-bottom: 6px;
 }
 #resume h3 {
@@ -642,7 +643,7 @@ call-to-action .button {
 
 #testimonials {
    /* background: #1F1F1F url('http://www.xda-developers.com/wp-content/uploads/2012/03/Code.jpeg') no-repeat center center; */
-   background: #1F1F1F url('https://wallpapermemory.com/uploads/430/programming-background-hd-1920x1280-313837.jpg') no-repeat center center;
+   background: #1F1F1F url('https://cdn-images-1.medium.com/max/2600/0*T_k_KvM8_mTaowQl.') no-repeat center center;
    /* background: #1F1F1F url('https://www.greengeeks.com/blog/wp-content/uploads/2015/04/webdevelopment.jpg') no-repeat center center; */
    background-size: cover !important;
 	-webkit-background-size: cover !important;
@@ -795,11 +796,11 @@ call-to-action .button {
    background: #191919;
    padding-top: 96px;
    padding-bottom: 102px;
-   color: #636363;
+   color: #ffffff;
 }
 #contact .section-head { margin-bottom: 42px; }
 
-#contact a, #contact a:visited  { color: #00FF00; }
+#contact a, #contact a:visited  { color: #161415; }
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
@@ -819,6 +820,13 @@ call-to-action .button {
    text-align: left;
    float: left;
    color: #ebeeee;
+}
+
+#contact h2 {
+   font: 'opensans-bold',
+   sans-serif;
+   color: #EBEEEE;
+   margin-bottom: 6px;
 }
 
 #contact h4 {
@@ -860,7 +868,7 @@ call-to-action .button {
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #00FF00;
+	background-color: #161415;
 }
 #contact button.submit {
 	text-transform: uppercase;
@@ -879,7 +887,7 @@ call-to-action .button {
 	background: #fff;
 }
 #contact span.required {
-	color: #00FF00;
+	color: #161415;
 	font-size: 13px;
 }
 #message-warning, #message-success {
@@ -891,7 +899,7 @@ call-to-action .button {
    margin-left: 26%;
 }
 #message-warning { color: #D72828; }
-#message-success { color: #00FF00; }
+#message-success { color: #161415; }
 
 #message-warning i,
 #message-success i {
@@ -1006,5 +1014,5 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #00FF00; }
+#go-top a:hover { background-color: #161415; }
 
