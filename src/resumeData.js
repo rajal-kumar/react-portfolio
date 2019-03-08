@@ -57,22 +57,22 @@ let resumeData = {
         "Achievements":"Some Achievements"
       }
     ],
-    "skillsDescription":"My skills",
+    "skillsDescription":"Some of the skills I have",
     "skills":[
       {
-        "skillname":"HTML5",
+        "skillname": "HTML5",
         "imgurl":"https://img.icons8.com/color/96/000000/html-5.png"
       },
       {
-        "skillname":"CSS",
+        "skillname": "CSS",
         "imgurl":"https://img.icons8.com/color/96/000000/css3.png"
       },
       {
-        "skillname":"JavaScript",
+        "skillname": "JavaScript",
         "imgurl":"https://img.icons8.com/color/96/000000/javascript.png"
       },
       {
-        "skillname":"React.js/Native/VR",
+        "skillname": "React.js/Native/VR",
         "imgurl":"https://img.icons8.com/ios/100/000000/react-native-filled.png"
       },
       {
@@ -106,17 +106,25 @@ let resumeData = {
       {
         "skillname": "Linux",
         "imgurl":"https://img.icons8.com/color/96/000000/linux.png"
+      },
+      {
+        "skillname": "Bootstrap",
+        "imgurl":"https://img.icons8.com/color/96/000000/bootstrap.png"
+      },
+      {
+        "skillname": "REST API",
+        "imgurl":"https://img.icons8.com/color/96/000000/api-settings.png"
       }
     ],
     "portfolio":[
       {
-        "name":"project1",
+        "name":"React portfolio template",
         "description":"",
         "imgurl":"images/portfolio/comingsoon.jpg"
       },
       {
-        "name":"project2",
-        "description":"",
+        "name":"Eastern Youth Services Trust (Esyt)",
+        "description":"This was a job for a client to update and do maintainance work on their website.",
         "imgurl":"images/portfolio/comingsoon.jpg"
       },
       {

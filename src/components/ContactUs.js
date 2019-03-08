@@ -16,19 +16,17 @@ export default class ContactUs extends Component {
             </div>
           </div>
           <div className="row">
-
                   <div className="columns contact-details">
-
-                  <h2>Contact Details</h2>
-                  <p className="address">
-       						<span>{resumeData.name}</span>
-                     <br></br>
-       						   <span>
-                     {resumeData.address}
-                    </span>
-                    <br></br>
-                    <span>{resumeData.email}</span>
-       					   </p>
+                    <h2>Contact Details</h2>
+                    <p className="address">
+                    <span>{resumeData.name}</span>
+                      <br></br>
+                      <span>
+                      {resumeData.address}
+                      </span>
+                      <br></br>
+                      <span>{resumeData.email}</span>
+                    </p>
                   </div>
                </div>
         </section>

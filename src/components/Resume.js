@@ -71,7 +71,7 @@ export default  class Resume extends Component {
               
 
    				<div className="grid">
-
+        {resumeData.skillsDescription}
       <div className="row">
         <div className="twelve columns collapsed">
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
