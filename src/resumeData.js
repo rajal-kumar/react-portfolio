@@ -25,6 +25,38 @@ let resumeData = {
     "aboutme": "Hey, I'm a FullStack developer who specialises in React and NodeJs. I design, build, operate and depending on the type of set up I can also work on existing web applications. I have always had a passion for technology and the web - I like to bring my automotive conceptual thinking into the world of programming like how both skills require a build, break, fix, and repeat kind of thinking. I love to write code most days of the week, and most weeks of the year. If I'm not working on a client's project I regularly spend time online browsing for new projects and technologies to further expand my programming knowledge and skills. Please feel free to have a look around on my site and get in contact if you have any questions.",
     "address":"Wellington, New Zealand",
     "email":"rajalkumar@protonmail.com",
+    "services": [
+      {
+        "serviceName": "Web Application Development",
+        "serviceDescription": "",
+        "servicePic": "https://img.icons8.com/color/96/000000/source-code.png"
+      },
+      {
+        "serviceName": "Mobile Application Development",
+        "serviceDescription": "",
+        "servicePic": "https://img.icons8.com/color/96/000000/touchscreen-smartphone.png"
+      },
+      {
+        "serviceName": "API Integration & Development",
+        "serviceDescription": "",
+        "servicePic": "https://img.icons8.com/color/96/000000/api-settings.png"
+      },
+      // {
+      //   "serviceName": "Database Design",
+      //   "serviceDescription": "",
+      //   "servicePic": "https://img.icons8.com/ios/96/000000/database-filled.png"
+      // },
+      // {
+      //   "serviceName": "Cloud Integration",
+      //   "serviceDescription": "",
+      //   "servicePic": "https://img.icons8.com/ios-glyphs/96/000000/cloud.png"
+      // },
+      {
+        "serviceName": "E-Commerce Applications",
+        "serviceDescription": "",
+        "servicePic": "https://img.icons8.com/color/96/000000/shop.png"
+      }
+    ],
     "education":[
       {
         "UniversityName":"Enspiral Dev Academy",

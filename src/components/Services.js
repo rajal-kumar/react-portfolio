@@ -2,18 +2,26 @@ import React from 'react'
 
 class Services extends React.Component {
   render() {
+    let resumeData = this.props.resumeData;
     return (
         <section id="services">
-          <div style={{ width: '100%' }}>
-            <ul className="services-container">
-              <li className="service-item">1</li>
-              <li className="service-item">2</li>
-              <li className="service-item">3</li>
-              <li className="service-item">4</li>
-              <li className="service-item">5</li>
-              <li className="service-item">6</li>
-            </ul>
-          </div>
+          <h1>Services</h1>
+              <div id="services" className="text-center">
+                {
+                  resumeData.services && resumeData.services.map((item, i) => {
+                    return (
+                      <ul className="services-container">
+                        <li className="service-item">
+                          <img src={`${item.servicePic}`} className="item-img" alt="+" />
+                          <div className="service-description">
+                            <h5>{item.serviceName}</h5>
+                          </div>
+                        </li>
+                      </ul>
+                    )
+                  })
+                }
+              </div>
         </section>
     )
   }
