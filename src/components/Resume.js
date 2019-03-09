@@ -59,12 +59,12 @@ export default  class Resume extends Component {
             <div className="three columns header-col">
                <h1><span>Skills</span></h1>
             </div>
-            <div className="nine columns main-col">
+            <div className="text-center">
    				<div className="grid">
         {resumeData.skillsDescription}
       <div className="row">
         <div className="twelve columns collapsed">
-          <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
+          <div id="portfolio-wrapper" className="services-container">
           {
             resumeData.skills && resumeData.skills.map((item, i)=>{
               return(

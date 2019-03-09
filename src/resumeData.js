@@ -3,7 +3,7 @@ let resumeData = {
     "name": "Rajal Kumar",
     "role": "Full-Stack Web Developer",
     "linkedinId": "rajal-kumar-3b00ab10b",
-    "skypeid": "Your skypeid",
+    "skypeid": "live:rajalkumar_1",
     "roleDescription": "HTML / CSS | JavaScript | ReactJs / VR / Native  | Redux | NodeJS | Express | SQL / liteDB | BootStrap | Wordpress | Linux | jQuery | Sass | Git | Terminal",
     "socialLinks":[
         {
@@ -18,7 +18,7 @@ let resumeData = {
         },
         {
           "name":"skype",
-          "url":"",
+          "url":"https://join.skype.com/invite/jIe0t9RfFh2M",
           "className":"fa fa-skype"
         }
       ],
@@ -120,10 +120,6 @@ let resumeData = {
         "imgurl":"https://img.icons8.com/color/96/000000/git.png"
       },
       {
-        "skillname": "Command Line Interface",
-        "imgurl":"https://img.icons8.com/color/96/000000/command-line.png"
-      },
-      {
         "skillname": "jQuery",
         "imgurl":"https://img.icons8.com/ios/100/000000/jquery.png"
       },
@@ -146,7 +142,11 @@ let resumeData = {
       {
         "skillname": "REST API",
         "imgurl":"https://img.icons8.com/color/96/000000/api-settings.png"
-      }
+      },
+      {
+        "skillname": "Command Line Interface",
+        "imgurl":"https://img.icons8.com/color/96/000000/command-line.png"
+      },
     ],
     "portfolio":[
       {

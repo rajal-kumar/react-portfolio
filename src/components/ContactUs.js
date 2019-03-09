@@ -23,7 +23,7 @@ export default class ContactUs extends Component {
                       {resumeData.address}
                       </span>
                       <br></br>
-                      <span>{resumeData.email}</span>
+                      <a href="mailto:rajalkumar@protonmail.com" data-rel="external"><span>{resumeData.email}</span></a>
                     </p>
                   </div>
                </div>

@@ -10,7 +10,7 @@ class Services extends React.Component {
                 {
                   resumeData.services && resumeData.services.map((item, i) => {
                     return (
-                      <ul className="services-container">
+                      <ul className="services-container" key={i}>
                         <li className="service-item">
                           <img src={`${item.servicePic}`} className="item-img" alt="+" />
                           <div className="service-description">
