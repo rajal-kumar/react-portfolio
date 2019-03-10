@@ -23,7 +23,8 @@ export default class ContactUs extends Component {
                       {resumeData.address}
                       </span>
                       <br></br>
-                      <a href="mailto:rajalkumar@protonmail.com" data-rel="external"><span>{resumeData.email}</span></a>
+                      <i className="fas fa-envelope fa-2x"></i>
+                      <a href="mailto:rajalkumar@protonmail.com" data-rel="external"><span>{resumeData.email} (click to contact)</span></a>
                     </p>
                   </div>
                </div>

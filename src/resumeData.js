@@ -22,7 +22,7 @@ let resumeData = {
           "className":"fa fa-skype"
         }
       ],
-    "aboutme": "Hey, I'm a FullStack developer who specialises in React and NodeJs. I design, build, operate and depending on the type of set up I can also work on existing web applications. I have always had a passion for technology and the web - I like to bring my automotive conceptual thinking into the world of programming like how both skills require a build, break, fix, and repeat kind of thinking. I love to write code most days of the week, and most weeks of the year. If I'm not working on a client's project I regularly spend time online browsing for new projects and technologies to further expand my programming knowledge and skills. Please feel free to have a look around on my site and get in contact if you have any questions.",
+    "aboutme": "Hey, I’m a FullStack developer who specialises in React and Node.js. I design, build, and operate/host web applications. Also depending on the current type of set up I can also work on existing web applications. I have always had a passion for technology and the web, which makes me take pride in the work I do that reflects throughout all my projects, which you can see further down in my projects section and this website itself. I have a natural build, test, and maintain kind of mentality, which is something I share with my background growing up around automotive. With this I use to connect my clients to the web with the best and most suited and modern technologies. Please feel free to have a look around on my site and get in contact if you have any questions.",
     "address":"Wellington, New Zealand",
     "email":"rajalkumar@protonmail.com",
     "services": [
@@ -108,7 +108,7 @@ let resumeData = {
         "imgurl":"https://img.icons8.com/ios/100/000000/react-native-filled.png"
       },
       {
-        "skillname": "Node.js",
+        "skillname": "Node.js/Express.js",
         "imgurl":"https://img.icons8.com/color/96/000000/nodejs.png"
       },
       {
@@ -144,7 +144,7 @@ let resumeData = {
         "imgurl":"https://img.icons8.com/color/96/000000/api-settings.png"
       },
       {
-        "skillname": "Command Line Interface",
+        "skillname": "CLI",
         "imgurl":"https://img.icons8.com/color/96/000000/command-line.png"
       },
     ],
