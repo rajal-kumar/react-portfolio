@@ -12,10 +12,12 @@
     "bulma": "^0.7.4",
     "cors": "^2.8.5",
     "express": "^4.16.4",
+    "express-favicon": "^2.0.1",
     "express-handlebars": "^3.0.2",
     "i": "^0.3.6",
     "nodemailer": "^5.1.1",
     "npm": "^6.8.0",
+    "path": "^0.12.7",
     "react": "^16.6.0",
     "react-bootstrap": "^1.0.0-beta.5",
     "react-dom": "^16.6.0",
@@ -26,7 +28,7 @@
     "semantic-ui-react": "^0.85.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
