@@ -151,7 +151,7 @@ let resumeData = {
     "portfolio":[
       {
         "name":"React portfolio template",
-        "description":"",
+        "description": "https://react-portfolio-template.herokuapp.com/",
         "imgurl":"images/portfolio/comingsoon.jpg"
       },
       {

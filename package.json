@@ -26,7 +26,10 @@
     "react-dom": "^16.6.0",
     "react-flexbox-grid": "^2.1.2",
     "react-mdl": "^1.11.0",
+    "react-redux": "^6.0.1",
     "react-scripts": "2.1.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
     "semantic-ui": "^2.4.2",
     "semantic-ui-react": "^0.85.0"
   },
